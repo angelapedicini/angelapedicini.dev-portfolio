@@ -2,13 +2,41 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Stefania Gregori</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angela Pedicini - Full stack web developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <h1>Portfolio</h1>
-  <ul>
-    <li><a href="/helpdesk">Helpdesk</a></li>
-  </ul>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand">
+        <span class="brand-name">Angela Pedicini</span>
+        <span class="brand-role">Full stack web developer</span>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="intro">
+        <h2>Live Demos</h2>
+      </div>
+      <!-- Le strisce vengono create da script.js usando l'elenco in apps.js -->
+      <div class="strips">
+        <div id="apps" class="strips"></div>
+        <div class="strip-soon">Altre app in arrivo</div>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://github.com/">GitHub</a>
+      <a href="https://www.linkedin.com/">LinkedIn</a>
+      <a href="mailto:">Email</a>
+    </footer>
+  </div>
+
+  <script src="/apps.js"></script>
+  <script src="/script.js"></script>
 </body>
-</html> 
+</html>
