@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/helpdesk", "destination": "https://helpdesk-lilac-psi.vercel.app/helpdesk" },
+    { "source": "/helpdesk/:path*", "destination": "https://helpdesk-lilac-psi.vercel.app/helpdesk/:path*" }
+  ]
+}
